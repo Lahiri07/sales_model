@@ -1,0 +1,33 @@
+# Package Overview
+package_name: linear_model
+
+# Data Files
+
+training_data_file: train.csv
+test_data_file: test.csv
+
+# Variables
+# The variable we are attempting to predict (sale price)
+target: Sales
+
+pipeline_name: linear_model
+pipeline_save_file: linear_model_output_v
+
+features:
+  - TV
+  - Radio
+  - Newspaper
+
+# set train/test split
+test_size: 0.1
+alpha: 0.01
+# to set the random seed
+random_state: 0
+
+
+numerical_vars:
+  - TV
+  - Radio
+  - Newspaper
+
+
