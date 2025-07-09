@@ -7,3 +7,7 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+mlruns/
+mlartifacts/
+.advertising_env/
+section-1-packaging/linear_model/trained_models/
